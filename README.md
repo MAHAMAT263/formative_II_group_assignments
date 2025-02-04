@@ -38,21 +38,6 @@ Dataset Link: [Water Quality and Potability](https://www.kaggle.com/datasets/uom
 
 
 
----
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone <repository_link>
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
 
 ---
 

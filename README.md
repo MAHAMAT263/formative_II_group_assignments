@@ -28,7 +28,7 @@ Dataset Link: [Water Quality and Potability](https://www.kaggle.com/datasets/uom
 ### 🎥 **Video Submission**
 - Each team member explains their **contributions** and techniques used.
 - Demonstration of commits and **training instances** from the report.
-- **Summary of findings** and their significance.
+[Group Video](https://drive.google.com/drive/folders/1MfB5rXvLInY70BJNh4XIIpUoSBsaauYL?usp=drive_link)
 
 ### 📑 **Group Report**
 

@@ -33,7 +33,7 @@ Dataset Link: [Water Quality and Potability](https://www.kaggle.com/datasets/uom
 ### 📑 **Group Report**
 
 - **Juliana vs. Liliane**:  
-  Juliana’s model outperformed Liliane’s, including a significantly higher F1 score (0.913 vs. 0.450). The inclusion of L2 regularization and the adaptive learning of the Adam optimizer allowed Juliana's model to generalize better, while Liliane’s model struggled due to the absence of L2 regularization and reliance on RMSprop.
+  My model outperformed Liliane’s, including a significantly higher F1 score (0.913 vs. 0.450). The inclusion of L2 regularization and the adaptive learning of the Adam optimizer allowed Juliana's model to generalize better, while Liliane’s model struggled due to the absence of L2 regularization and reliance on RMSprop.
 
 - **Mahamat vs. Juliana**:  
   Juliana’s model performed better in terms of achieving higher test accuracy (88.7% vs. 68.7%) and F1 score (0.913 vs. 0.434). This difference stems from Juliana’s use of Adam, which converged more effectively than SGD, and her dropout rates, which better controlled overfitting.

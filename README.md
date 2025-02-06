@@ -31,10 +31,16 @@ Dataset Link: [Water Quality and Potability](https://www.kaggle.com/datasets/uom
 - **Summary of findings** and their significance.
 
 ### 📑 **Group Report**
-- **Training summaries** for each model attempted by team members.
-- **Results and conclusions** from the experiments.
-- **Insights and challenges** faced by each member.
-- **Summary Table** comparing model architectures and performances.
+
+- **Juliana vs. Liliane**:  
+  Juliana’s model outperformed Liliane’s, including a significantly higher F1 score (0.913 vs. 0.450). The inclusion of L2 regularization and the adaptive learning of the Adam optimizer allowed Juliana's model to generalize better, while Liliane’s model struggled due to the absence of L2 regularization and reliance on RMSprop.
+
+- **Mahamat vs. Juliana**:  
+  Juliana’s model performed better in terms of achieving higher test accuracy (88.7% vs. 68.7%) and F1 score (0.913 vs. 0.434). This difference stems from Juliana’s use of Adam, which converged more effectively than SGD, and her dropout rates, which better controlled overfitting.
+
+- **Liliane vs. Mahamat**:  
+  Mahamat’s model slightly outperformed Liliane’s model in terms of test accuracy (68.7% vs. 53.3%) and generalization, likely due to the inclusion of L2 regularization. Mahamat’s model also had a better early stopping patience. The criteria had a patience of 10 epochs, which allowed his model to stop training earlier when the validation loss plateaued, in contrast to Liliane’s model that had a patience of 50 epochs.
+
 
 
 

@@ -59,4 +59,4 @@ Dataset Link: [Water Quality and Potability](https://www.kaggle.com/datasets/uom
 |-------------|------------------------|-----------|-------------------------|--------------|----------------|--------------|---------|
 | Mahamat    | L2 Regularization + Dropout | SGD (lr=0.01, momentum=0.9) | Monitor: val_loss, Patience: 10 | 0.3 (Layer 1), 0.3 (Layer 2) | 0.696 | 0.687 | 0.434 |
 | kayitesi Liliane    | Dropout | RMSprop | Monitor: val_loss, Patience: 50 |0.3 (Layer 1), 0.2 (Layer 2) | 0.663	| 0.533 | 	0.450 |
-| Juliana C. Holder   | L2 Regularization | Adam | Monitor: val_loss, Patience: 7 | 0.25 (Layer 1), 0.4 (Layer 2) | 0.897 | 0.887 | 0.913 |
+| Juliana C. Holder   | L2 Regularization | Adam | Monitor: val_loss, Patience: 7 | 0.25 (Layer 1), 0.4 (Layer 2) | 0.724 | 0.646 | 0.590 |

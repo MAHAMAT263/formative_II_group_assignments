@@ -30,21 +30,18 @@ Dataset Link: [Water Quality and Potability](https://www.kaggle.com/datasets/uom
 - Demonstration of commits and **training instances** from the report.
 [Group Video](https://drive.google.com/drive/folders/1MfB5rXvLInY70BJNh4XIIpUoSBsaauYL?usp=drive_link)
 
-### 📑 **Group Report**
+# Model Performance Comparisons
 
-- **Juliana vs. Liliane**:  
-  My model outperformed Liliane’s, including a significantly higher F1 score (0.913 vs. 0.450). The inclusion of L2 regularization and the adaptive learning of the Adam optimizer allowed my model to generalize better, while Liliane’s model struggled due to the absence of L2 regularization and reliance on RMSprop.
+## Comparative Analysis
 
-- **Mahamat vs. Juliana**:  
-  Juliana’s model performed better in terms of achieving higher test accuracy (88.7% vs. 68.7%) and F1 score (0.913 vs. 0.434). This difference stems from Juliana’s use of Adam, which converged more effectively than SGD, and her dropout rates, which better controlled overfitting.
+### Juliana (Best Overall Performance)
+When comparing with Liliane's model, my F1 score was higher (0.590 vs 0.450) and I achieved better test accuracy (64.6% vs 53.3%). The performance came from my choice of combining L2 regularization with the Adam optimizer, which provided better parameter updates compared to Liliane's RMSprop approach. When looking at Mahamat's model, while he achieved excellent generalization, my model still produced better overall metrics with a higher F1 score (0.590 vs 0.434). The key difference was my use of Adam optimizer instead of SGD with momentum, which allowed for more adaptive learning rates and better convergence.
 
-- **Liliane vs. Mahamat**:  
-  Mahamat’s model slightly outperformed Liliane’s model in terms of test accuracy (68.7% vs. 53.3%) and generalization, likely due to the inclusion of L2 regularization. Mahamat’s model also had a better early stopping patience. The criteria had a patience of 10 epochs, which allowed his model to stop training earlier when the validation loss plateaued, in contrast to Liliane’s model that had a patience of 50 epochs.
+### Mahamat (Best Generalization)
+While my F1 score (0.434) was lower than my teammates, my model achieved the best generalization performance with nearly identical train and test accuracies (0.696/0.687). Compared to Liliane's model, my combined L2 and dropout regularization strategy proved more effective than her dropout-only approach, as evidenced by my minimal train-test accuracy gap (0.009 vs 0.130). When looking at Juliana's model, although she achieved higher absolute metrics, my model demonstrated better stability and generalization.
 
-
-
-
-
+### Liliane (Second-Best F1 Score)
+My model achieved the second-best F1 score (0.450) among the team. While Juliana's model showed higher metrics overall, my RMSprop optimizer still managed to achieve decent training performance (0.663). When comparing with Mahamat's model, my higher F1 score (0.450 vs 0.434) shows the potential of my approach, though the larger train-test accuracy gap indicates room for improvement.
 ---
 
 ## 🔥 Challenges & Insights

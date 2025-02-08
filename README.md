@@ -42,6 +42,7 @@ While my F1 score (0.434) was lower than my teammates, my model achieved the bes
 
 ### Liliane (Second-Best F1 Score)
 My model achieved the second-best F1 score (0.450) among the team. While Juliana's model showed higher metrics overall, my RMSprop optimizer still managed to achieve decent training performance (0.663). When comparing with Mahamat's model, my higher F1 score (0.450 vs 0.434) shows the potential of my approach, though the larger train-test accuracy gap indicates room for improvement.
+
 ---
 
 ## 🔥 Challenges & Insights
